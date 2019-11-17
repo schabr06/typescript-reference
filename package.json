@@ -13,7 +13,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --stage",
-      "commit-msg": "commitlint -E HUSKY_GET_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "repository": {
